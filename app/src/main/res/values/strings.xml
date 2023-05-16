@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">L04_Reservation</string>
+    <string name="reserve_header">RESERVATION DETAILS</string>
+    <string name="name">Enter Full Name</string>
+    <string name="phone">Enter Phone Number</string>
+    <string name="size">Enter Group Size</string>
+    <string name="dateTime">Enter Date/Time</string>
+    <string name="smoke">Smoking Area</string>
+    <string name="noSmoke">Non-Smoking Area</string>
+    <string name="check">Declare that all details entered are correct.</string>
+    <string name="reset">RESET</string>
+    <string name="submit">SUBMIT</string>
+    <string name="smokeType">Table Type</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+</resources>

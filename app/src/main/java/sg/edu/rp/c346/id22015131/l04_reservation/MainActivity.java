@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     output += "\nDate: " + dp.getDayOfMonth() + "/" + dp.getMonth() + "/" + dp.getYear();
                     output += "\nTime: " + tp.getCurrentHour() + ":" + tp.getCurrentMinute();
 
+
                     Toast.makeText(MainActivity.this, output, Toast.LENGTH_LONG).show();
 
 

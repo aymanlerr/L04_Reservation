@@ -8,7 +8,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="607dp">
+        android:layout_height="607dp"
+        android:layout_weight="9">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,6 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
+                android:gravity="center"
                 android:text="@string/reserve_header"
                 android:textSize="24sp" />
 
@@ -133,6 +135,7 @@
                 android:id="@+id/checkBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
                 android:fontFamily="sans-serif-condensed"
                 android:text="@string/check"
                 android:textColor="@color/red"
@@ -144,25 +147,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/reset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/reset"
+            android:layout_marginLeft="10px"
             android:layout_marginRight="10px"
-            android:layout_marginLeft="10px"/>
+            android:layout_weight="1"
+            android:text="@string/reset" />
 
         <Button
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/submit"
             android:layout_marginLeft="10px"
-            android:layout_marginRight="10px"/>
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:text="@string/submit" />
     </LinearLayout>
 
 </LinearLayout>
